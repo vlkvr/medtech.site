@@ -1,33 +1,60 @@
 body {
-	margin: 0;
-	padding: 0;
-	border-top: 5px #59d solid;
-	background-image: url(img/bg.png);
+  margin: 0;
+  padding: 0;
+  border-top: 5px #59d solid;
+  background-image: url(img/bg.png);
 }
-.b-wrap {
-	width: 980px;
-	margin: auto;
+
+.container {
+  width: 980px;
+  margin: auto;
 }
-.b-pane {
-	overflow: hidden;
-	margin: 20px 0 20px 0;
-	border-top: 1px #bdf solid;
-	border-bottom: 1px #bdf solid;
+
+.page_header {
+
 }
-.b-search {
-	float: left;
+
+.page_header--logo {
+
 }
+
+.page_header--tel {
+  display: inline-block;
+}
+
+.page_header--address {
+  display: inline-block;
+}
+
+.page_header--cart {
+
+}
+
+.main_nav {
+  overflow: hidden;
+  margin: 20px 0 20px 0;
+  border-top: 1px #bdf solid;
+  border-bottom: 1px #bdf solid;
+}
+
+.search {
+  float: left;
+}
+
 .b-search__input {
-	display: inline-block;
+  display: inline-block;
 }
-nav {
-	float: right;
+
+.nav {
+  float: right;
 }
+
 .b-menu_main {
-	
+
 }
-.b-menu_main__item {
-	display: inline-block;
+
+.nav--item {
+  display: inline-block;
 }
 
 
@@ -54,52 +81,52 @@ nav {
 
 
 .wrap {
-	width: 980px;
-	margin: auto;
+  width: 980px;
+  margin: auto;
 }
 .top-menu {
-	border-top: 1px #bdf solid;
-	border-bottom: 1px #bdf solid;
-	width: 100%;
-	height: 40px;
-	position: absolute;
-	top: 150px;
+  border-top: 1px #bdf solid;
+  border-bottom: 1px #bdf solid;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  top: 150px;
 }
 .line {
-	width: 100%;
-	height: 220px;
-	position: absolute;
-	border-top: 1px #bdf solid;
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  border-top: 1px #bdf solid;
 }
 .footer {
-	position: absolute;
-	height: 300px;
-	width: 100%;
-	background: #59d;
-	background-image: url(img/stripes.png); 
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  background: #59d;
+  background-image: url(img/stripes.png);
 }
 /*img {
-	margin-top: -5px;
+  margin-top: -5px;
 }
 a {
-	color: #fff;
-	text-decoration: none;
-	font-family: sans-serif;
-	font-variant: small-caps;
-	padding: 0 10px;
-	display: block;
-	width: 120px;
-	height: 25px;
-	background: #59d;
-	position: absolute;
-	right: 210px;
-	box-shadow: inset 0 -2px #47b;
-	border-radius: 3px;
-	border-bottom: 2px #47b solid;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  padding: 0 10px;
+  display: block;
+  width: 120px;
+  height: 25px;
+  background: #59d;
+  position: absolute;
+  right: 210px;
+  box-shadow: inset 0 -2px #47b;
+  border-radius: 3px;
+  border-bottom: 2px #47b solid;
 }
 a:hover {
-	background: #6ae;
+  background: #6ae;
 }
 a:active {
-	box-shadow: none;
+  box-shadow: none;
 }*/
